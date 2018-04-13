@@ -1,13 +1,13 @@
 import React from 'react';
-
+import './NavBar.css';
 export class NavBar extends React.Component {
     render() {
         const pgs = ['About','Contact'];
         const links = pgs.map(pg=>{
             return (
-                <a href={'../public/'+pg+'.html'}>{pg}</a>
+                <li><a href={'../public/'+pg+'.html'}>{pg}</a></li>
             );
         });
-        return <nav>{links}</nav>;
+        return <ul>{links}</ul>;
     }
 }
