@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {NavBar} from './NavBar'; 
-
+import {Elephant} from './NavBar';
 class App extends React.Component {
   render() {
     const q = "The world is full of objects, more or less interesting; I do not wish to add any more";
@@ -19,6 +19,7 @@ class App extends React.Component {
             <cite><a href = 'https://en.wikipedia.org/wiki/Douglas_Huebler' target='_blank'>Douglas Huebler Wikipedia Page</a></cite>
           </blockquote>
         </div>
+        <Elephant specs={{height:'2.60 meters', weight:'3,000 kilograms', speed:'25 kilometers/hour'}} />
       </div>
     );
   }
