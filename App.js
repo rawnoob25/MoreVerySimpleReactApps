@@ -5,11 +5,21 @@ import {NavBar} from './NavBar';
 
 class App extends React.Component {
   render() {
+    const q = "The world is full of objects, more or less interesting; I do not wish to add any more";
     return (
       <div>
         <NavBar />
+        <div id = 'hueblerDiv'>
+          <h2>Douglas Huebler</h2>
+          <img src = 'https://upload.wikimedia.org/wikipedia/en/a/a4/Douglas_Huebler.jpg' alt = 'Douglas Huebler' height = '400' />
+          <blockquote>
+            <p>
+            The world is full of objects, more or less interesting; I do not wish to add any more.
+            </p>
+            <cite><a href = 'https://en.wikipedia.org/wiki/Douglas_Huebler' target='_blank'>Douglas Huebler Wikipedia Page</a></cite>
+          </blockquote>
+        </div>
       </div>
-      /*<div><img src = {logo} alt = 'logo' height = '200' style={{display:'block'}}/>Hello World</div>*/
     );
   }
 }
