@@ -1,0 +1,8 @@
+#theButton {
+	color: #e83617;
+	background: #aaa;
+	font-size: 2em;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+}
