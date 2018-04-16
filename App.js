@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {NavBar} from './NavBar'; 
-import {Elephant} from './NavBar';
+import {Elephant} from './Elephant';
 class App extends React.Component {
   render() {
     const q = "The world is full of objects, more or less interesting; I do not wish to add any more";
